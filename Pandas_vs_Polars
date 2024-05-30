@@ -44,4 +44,4 @@ print("Saved to CSV!")
 print("Done!")
 
 print(data.shape) 
-print() data.sample(10)
+data.sample(10)
