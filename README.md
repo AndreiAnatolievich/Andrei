@@ -36,8 +36,7 @@ print("Saved to CSV!")
 print("Done!")
 
 print(data.shape)
-print()
-data.sample(10)
+print(
 
 # PANDAS
 df_pd = pd.read_csv("data.csv")
