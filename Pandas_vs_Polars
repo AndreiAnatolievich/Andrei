@@ -1,4 +1,5 @@
-import uuid import numpy as np 
+import uuid 
+import numpy as np 
 import pandas as pd 
 import polars as pl from datetime 
 import datetime
@@ -34,10 +35,13 @@ for dt in date_ranges:
 
 data = pd.DataFrame(data)
 
-print("Finished converting to dataframe!") print("Saving to CSV...")
+print("Finished converting to dataframe!") 
+print("Saving to CSV...")
 
 data.to_csv("data.csv", index=False)
 
-print("Saved to CSV!") print("Done!")
+print("Saved to CSV!") 
+print("Done!")
 
-print(data.shape) print() data.sample(10)
+print(data.shape) 
+print() data.sample(10)
